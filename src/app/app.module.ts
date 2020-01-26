@@ -45,7 +45,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   imports: [
     BrowserModule,
     FormsModule,
-    NgbModule,
+    NgbModule.forRoot(),
     AppRoutingModule,
     AngularFireModule.initializeApp(environment)
   ],
