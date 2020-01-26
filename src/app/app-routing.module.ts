@@ -14,7 +14,7 @@ import { ContactSubmitComponent } from './contact/contact-submit/contact-submit.
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes	= [								
-  { path: '', redirectTo:	'/home', pathMatch: 'full' },
+  { path: '', redirectTo:	'home', pathMatch: 'full' },
 	{ path: 'home', component:	HomeComponent },    		
 	{ path: 'about', component:	AboutComponent , children: [
       { path: '', redirectTo:	'profile', pathMatch: 'full' },

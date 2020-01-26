@@ -13,8 +13,8 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
   }
-  onSubmit() {
-    console.log(this.signupForm);
+  onSubmit(form: NgForm) {
+    //console.log(this.signupForm);
     this.router.navigate(['contactSubmit'], {relativeTo: this.route});
   }
 }

@@ -1,3 +1,3 @@
 export class Project{
-    constructor(private title: string, private text: string, private imagesource: string, private source: string) {}
+    constructor(public title: string, public text: string, public imagesource: string, public source: string) {}
 }

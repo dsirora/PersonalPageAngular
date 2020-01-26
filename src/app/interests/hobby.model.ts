@@ -1,3 +1,3 @@
 export class Hobby {
-    constructor(private name: string, private image: string, private text1: string, private text2: string) {}
+    constructor(public name: string, public image: string, public text1: string, public text2: string) {}
 }
