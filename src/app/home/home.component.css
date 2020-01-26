@@ -18,6 +18,11 @@ img {
     margin: auto;
     border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+    .imgbox {
+        margin: 10% 0 10% 0;
+    }
+}
 .picsum-img-wrapper {
     /* max-width: 100%; */
     margin: auto;
